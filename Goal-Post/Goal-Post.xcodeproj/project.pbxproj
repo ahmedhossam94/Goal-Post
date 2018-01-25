@@ -14,6 +14,7 @@
 		E2E80F4D201A2D0500082F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E80F4C201A2D0500082F3F /* Assets.xcassets */; };
 		E2E80F50201A2D0500082F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E80F4E201A2D0500082F3F /* LaunchScreen.storyboard */; };
 		E2E80F5C201A637400082F3F /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E80F5B201A637400082F3F /* GoalCell.swift */; };
+		E2E80F64201A905200082F3F /* goalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E80F63201A905200082F3F /* goalType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E2E80F4F201A2D0500082F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2E80F51201A2D0500082F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2E80F5B201A637400082F3F /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		E2E80F63201A905200082F3F /* goalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goalType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,7 @@
 		E2E80F41201A2D0500082F3F /* Goal-Post */ = {
 			isa = PBXGroup;
 			children = (
-				E2E80F5A201A2D5D00082F3F /* Extensions */,
-				E2E80F59201A2D4000082F3F /* Enums */,
+				E2E80F62201A904000082F3F /* Enum */,
 				E2E80F58201A2D3800082F3F /* Views */,
 				E2E80F57201A2D2700082F3F /* Controller */,
 				E2E80F42201A2D0500082F3F /* AppDelegate.swift */,
@@ -88,18 +89,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		E2E80F59201A2D4000082F3F /* Enums */ = {
+		E2E80F62201A904000082F3F /* Enum */ = {
 			isa = PBXGroup;
 			children = (
+				E2E80F63201A905200082F3F /* goalType.swift */,
 			);
-			path = Enums;
-			sourceTree = "<group>";
-		};
-		E2E80F5A201A2D5D00082F3F /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2E80F5C201A637400082F3F /* GoalCell.swift in Sources */,
+				E2E80F64201A905200082F3F /* goalType.swift in Sources */,
 				E2E80F45201A2D0500082F3F /* GoalsVC.swift in Sources */,
 				E2E80F43201A2D0500082F3F /* AppDelegate.swift in Sources */,
 				E2E80F4B201A2D0500082F3F /* Goal_Post.xcdatamodeld in Sources */,
