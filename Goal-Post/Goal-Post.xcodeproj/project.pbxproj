@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2049866201B4F7300F466D9 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2049865201B4F7300F466D9 /* UIButtonExt.swift */; };
+		E2049868201B6D4F00F466D9 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2049867201B6D4F00F466D9 /* FinishGoalVC.swift */; };
 		E28CE423201A9C2B0008648A /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28CE422201A9C2B0008648A /* CreateGoalVC.swift */; };
 		E28CE426201AA02B0008648A /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28CE425201AA02B0008648A /* UIViewControllerExt.swift */; };
+		E28CE428201ABC0B0008648A /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28CE427201ABC0B0008648A /* UIViewExt.swift */; };
 		E2E80F43201A2D0500082F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E80F42201A2D0500082F3F /* AppDelegate.swift */; };
 		E2E80F45201A2D0500082F3F /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E80F44201A2D0500082F3F /* GoalsVC.swift */; };
 		E2E80F48201A2D0500082F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E80F46201A2D0500082F3F /* Main.storyboard */; };
@@ -20,8 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2049865201B4F7300F466D9 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		E2049867201B6D4F00F466D9 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 		E28CE422201A9C2B0008648A /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		E28CE425201AA02B0008648A /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		E28CE427201ABC0B0008648A /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		E2E80F3F201A2D0500082F3F /* Goal-Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goal-Post.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E80F42201A2D0500082F3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2E80F44201A2D0500082F3F /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				E28CE425201AA02B0008648A /* UIViewControllerExt.swift */,
+				E28CE427201ABC0B0008648A /* UIViewExt.swift */,
+				E2049865201B4F7300F466D9 /* UIButtonExt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -91,6 +99,7 @@
 			children = (
 				E2E80F44201A2D0500082F3F /* GoalsVC.swift */,
 				E28CE422201A9C2B0008648A /* CreateGoalVC.swift */,
+				E2049867201B6D4F00F466D9 /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -187,8 +196,11 @@
 				E28CE423201A9C2B0008648A /* CreateGoalVC.swift in Sources */,
 				E2E80F64201A905200082F3F /* goalType.swift in Sources */,
 				E2E80F45201A2D0500082F3F /* GoalsVC.swift in Sources */,
+				E28CE428201ABC0B0008648A /* UIViewExt.swift in Sources */,
 				E2E80F43201A2D0500082F3F /* AppDelegate.swift in Sources */,
 				E28CE426201AA02B0008648A /* UIViewControllerExt.swift in Sources */,
+				E2049866201B4F7300F466D9 /* UIButtonExt.swift in Sources */,
+				E2049868201B6D4F00F466D9 /* FinishGoalVC.swift in Sources */,
 				E2E80F4B201A2D0500082F3F /* Goal_Post.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
